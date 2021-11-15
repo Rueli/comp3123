@@ -1,0 +1,82 @@
+/* form  */
+form {
+  border: 2px solid green;
+  padding: 2rem;
+  width: 1222px;
+  margin: auto;
+}
+
+/* h1 heading  */
+h1 {
+  text-align: center;
+}
+
+/* input elements  */
+input {
+  margin: 1rem;
+}
+
+/* first class  */
+div.first {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* second class  */
+div.second {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-content: flex-start;
+}
+
+/* The input fields  */
+#nameVal, #emailval {
+  width: 100%;
+}
+
+#addrval, #AddressVal, #cityval, #pr, #posval {
+  width: 100%;
+}
+
+#prlabel {
+  margin-bottom: 0.8rem;
+}
+
+/* labelt */
+label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* checkboxes */
+input[type=checkbox] {
+  margin-left: 30rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* button */
+#btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  display: block;
+  margin-left: 35rem;
+}
+
+/* output */
+.opdiv {
+  border: 2px solid green;
+  margin: 4rem auto;
+  padding: 1rem;
+  text-align: center;
+  width: 1180px;
+  color: #291081;
+}
